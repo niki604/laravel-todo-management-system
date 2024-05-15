@@ -32,12 +32,12 @@ This Laravel application is designed to manage todos within an organization. It 
    git clone https://github.com/your-repository.git
 
 2. Install dependencies:
-   composer install
+   composer install , 
    npm install
 
 3. Set up environment variables:
    cp .env.example .env
-   Configure your database connection and mail settings in the .env file.
+   .. Configure your database connection and mail settings in the .env file.
 
 4. Generate application key:
    php artisan key:generate
@@ -49,7 +49,7 @@ This Laravel application is designed to manage todos within an organization. It 
    php artisan db:seed --class=DatabaseSeeder
 
 7. Serve the application:
-   php artisan serve
+   php artisan serve , 
    npm run dev
 
 ## Author
